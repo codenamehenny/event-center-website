@@ -1,0 +1,91 @@
+/* Basic layout */
+* {
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    margin-bottom: 20px;
+    justify-content: center;
+
+}
+
+/* styles body attribute for all pages */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff9e6;
+    color: #28b463;
+}
+
+/* Navbar Styles */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #28b463;
+    padding: 1em;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+/* text style of button */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* responsive button when hovering */
+nav ul li a:hover {
+    color: green;
+}
+
+/* Index/Home Page */
+
+/* resizing the banner */
+#hero {
+    width: 400px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+ 
+}
+
+#hero img {
+   position: absolute;
+   width:400px;
+   height: auto;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% -50%);
+}
+
+/* Events Page */
+
+/* each event block style */
+article {
+    border: 3px solid green;
+    object-fit: cover;
+    overflow: hidden;
+    padding:15px;
+}
+
+/* Menu Page */
+
+/* adds border around table item */
+tr, td {
+    border: solid green;
+}
+
+/* aligns table to center */
+table {
+    margin: auto;
+}
+
+/* Contact Us Page */
+button {
+    display: inline-block;
+    visibility: visible;
+    z-index: 1;
+  }
